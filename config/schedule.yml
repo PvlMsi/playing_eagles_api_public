@@ -1,0 +1,4 @@
+send_messages:
+  cron: '* 8 * * *'
+  class: 'SendMessagesJob'
+  queue: default

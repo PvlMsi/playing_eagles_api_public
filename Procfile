@@ -1,0 +1,1 @@
+send_message_worker: bundle exec sidekiq -c 2
